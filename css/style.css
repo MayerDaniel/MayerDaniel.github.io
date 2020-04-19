@@ -1233,6 +1233,8 @@ pre .css .hexcolor {
 pre .function,
 pre .python .decorator,
 pre .python .title,
+pre .c .decorator,
+pre .c .title,
 pre .ruby .function .title,
 pre .ruby .title .keyword,
 pre .perl .sub,
