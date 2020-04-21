@@ -18,7 +18,7 @@
 <meta property="og:image" content="http://mayerdaniel.github.io/2020/04/19/Process-Injection-101-Hello-World/dll_proj.png">
 <meta property="og:image" content="http://mayerdaniel.github.io/2020/04/19/Process-Injection-101-Hello-World/console_proj.png">
 <meta property="og:image" content="http://mayerdaniel.github.io/2020/04/19/Process-Injection-101-Hello-World/injected.png">
-<meta property="og:updated_time" content="2020-04-19T23:23:19.690Z">
+<meta property="og:updated_time" content="2020-04-21T02:12:07.222Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Process Injection 101: Hello World">
 <meta name="twitter:description" content="The accompanying source files for this blog post are on GitHub: https://github.com/MayerDaniel/ProcessInjection/tree/master/101 Process injection is the act of writing arbitrary code into an already-r">
@@ -298,7 +298,7 @@ BOOL APIENTRY <span class="token function">DllMain</span><span class="token punc
 </code></pre>
 <p>And with that, you’ve done it! All thats left is to identify the PID of your target process (I pretty much always have <a href="https://processhacker.sourceforge.io/" target="_blank" rel="noopener">Process Hacker</a> open) and inject away!</p>
 <p><img src="/2020/04/19/Process-Injection-101-Hello-World/injected.png" alt="Injected!" title="Console Application Project in VS"></p>
-<p>Congrats, you have now run code in the address space of another process! In the next tutorial, we will explore some different ways to modify the behavior of the process you’ve injected into.</p>
+<p>Congrats, you have now run code in the address space of another process! In the <a href="https://www.mayer.cool/2020/04/20/Process-Injection-102-VirtualProtect/" target="_blank" rel="noopener">next tutorial</a>, explore how to modify the behavior of the process you’ve injected into.</p>
 <p>You can find all of the components necessary to recreate this blog <a href="https://github.com/MayerDaniel/ProcessInjection/tree/master/101" target="_blank" rel="noopener">here</a>.</p>
 
       
